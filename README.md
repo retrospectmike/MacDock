@@ -1,4 +1,6 @@
 # MacDock
+### Like modern macOS Dock... but in System 7
+![MacDock screenshot](https://user-images.githubusercontent.com/69996986/234356485-f0f01186-19e1-494b-ae07-5805589e3be9.png)
 ## Note on file compatibility:
 These files were made on a classic Macintosh environment.  This means they had both a `data fork` and a `resource fork` which are not properly maintained in modern OSes -- **so do not trust the files in this repository!** 
 ## SO how do I use these files?
