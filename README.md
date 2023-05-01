@@ -1,7 +1,1 @@
-# MacDock
-Like the macOS Dock... but for MacOS System 7
-
-![MacDock screenshot](https://user-images.githubusercontent.com/69996986/234356485-f0f01186-19e1-494b-ae07-5805589e3be9.png)
-
-## Repo Contents
-All source files are uploaded directly.  Some make use of a resource fork and this is lost when moving through modern OSes so a .sit archive with all of the project files is also included.  Theoretically the files in the .sit should match what's outside the .sit but trust the .sit file contents if you want to download this and build it on your vintage Macintosh environment.  Refer to all the other files in so much as non-resource-fork portions can be version tracked still (e.g. the .c and .h files' materials should all be there and you can use git's standard versioning tools to monitor and track those files' contents).
+MacDock 1.0 ©2023 by MacOfAllTradesDedicated to those of us still using these machines 40 years later...System Requirements:¥ System 7Description:MacDock is like the Dock in modern macOS.To use it, simply launch the program.  MacDock will be visible at the bottom of your screen.  You will see your running applications on the list (limited to 7 applications).  Clicking on any of them switches you to the app.Options:¥ Auto Hide (CMD+H) - Tucks away the Dock partially when the app is not in focus, for easier viewing of MacDock behind cluttered desktops¥ Show in Dock (CMD+D) - Shows MacDock in the dock Updates:Follow along at https://tinkerdifferent.com/threads/macdock-dev-progress-like-todays-macos-dock-but-for-system-7.2583/This program is nice-ware.  If you enjoy it, do something nice to someone today!
