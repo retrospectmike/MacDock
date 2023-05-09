@@ -1,20 +1,4 @@
-# MacDock
-### Like modern macOS Dock... but in System 7
-![MacDock screenshot](https://user-images.githubusercontent.com/69996986/234356485-f0f01186-19e1-494b-ae07-5805589e3be9.png)
-## Note on file compatibility:
-These files were made on a classic Macintosh environment.  This means they had both a `data fork` and a `resource fork` which are not properly maintained in modern OSes -- **so do not trust the files in this repository!** 
-## SO how do I use these files?
-Use the `MacDock_v1.0.sit` file, transfer it to your classic Macintosh environment, unstuff it, and you can use the files.
-
-## File listing:
-* DockApp - the THINKC 5.0 project file
-* all .c / .h files - Source code files for the app
-* DockApp.rsrc - resource file to be assembled into the application
-* MacDock - compiled application
-* README.md - a classic Macintosh edition of this read me (see below).
-
-# README
-MacDock 1.0 ©2023 by MacOfAllTrades
+MacDock 1.1 ©2023 by Mike
 Dedicated to those of us still using these machines 40 years later...
 
 System Requirements:
@@ -35,4 +19,13 @@ Options:
 Updates:
 Follow along at https://tinkerdifferent.com/threads/macdock-dev-progress-like-todays-macos-dock-but-for-system-7.2583/
 
-This program is nice-ware.  If you enjoy it, do something nice to someone today!
+This program is nice-ware.  If you enjoy it, do something nice to someone today!
+
+Release Notes
+- v1.1 -- 5/8/2023
+-- No longer keeps After Dark screensavers from triggering when idle
+-- Reduced CPU utilization by being selective about when to redraw the Dock and its icons
+-- Added "About MacDock..." dialog
+
+- v1.0
+-- Initial release
