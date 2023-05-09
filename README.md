@@ -1,5 +1,6 @@
 MacDock 1.1 ©2023 by Mike
 Dedicated to those of us still using these machines 40 years later...
+<img width="509" alt="image" src="https://user-images.githubusercontent.com/69996986/236984991-3353a6ec-b9c5-42f7-8a0f-3fff8b9209d8.png">
 
 System Requirements:
 ¥ System 7
