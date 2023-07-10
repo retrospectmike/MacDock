@@ -1,4 +1,5 @@
-MacDock 1.2 ©July 2023 by Mike
+# MacDock 1.2 
+## ©July 2023 by Mike
 Dedicated to those of us still using these machines 40 years later...
 
 System Requirements:
