@@ -5,6 +5,7 @@ System Requirements:
 - System 7
 
 Description:
+![screenshot](screenshot_for_readme.png)
 MacDock is like the Dock in modern macOS.
 To use it, simply launch the program.  MacDock will be visible at the bottom of your screen.  
 
