@@ -3,7 +3,7 @@
 Dedicated to those of us still using these machines 40 years later...
 
 System Requirements:
-- System 7
+- System 7.x **with the *Finder Scripting Extension* installed**
 
 Description:
 ![screenshot](screenshot_for_readme.png)
