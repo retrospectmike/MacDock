@@ -6,6 +6,9 @@ Dedicated to those of us still using these machines 40 years later...
 System Requirements:
 * System 7
 
+How to use source code:
+Download the `MacDock v1.3.sit` file and move it into your Macintosh computer (or emulator environment) and Unstuff the archive.  Use Think C 5.0 to open the `MacDock π` project file.
+
 Description:
 MacDock is like the Dock in modern macOS.
 To use it, simply launch the program.  MacDock will be visible at the bottom of your screen.  
