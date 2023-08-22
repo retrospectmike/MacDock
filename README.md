@@ -1,13 +1,11 @@
-MacDock 1.3 ©August 2023 by Mike
+MacDock 1.31 ©August 2023 by Mike
 
 Dedicated to those of us still using these machines 40 years later...
 ![MacDock screenshot](screenshot_for_readme.png)
 
 System Requirements:
 * System 7
-
-How to use source code:
-Download the `MacDock v1.3.sit` file and move it into your Macintosh computer (or emulator environment) and Unstuff the archive.  Use Think C 5.0 to open the `MacDock π` project file.
+* AppleScript with Finder Scripting Extension for full features
 
 Description:
 MacDock is like the Dock in modern macOS.
@@ -29,8 +27,12 @@ Follow along at https://tinkerdifferent.com/threads/macdock-dev-progress-like-to
 This program is care-ware.  If you enjoy it, do something nice to someone today!
 
 Release Notes
+- v1.31 -- 8/21/2023
+  - New icon!  It's not Susan Kare but it's nice :-D  Rebuild the Desktop if you still see the old one
+  - Fixed an issue on color screens where applications that only have a black & white icon that caused those apps to show up as generic app icons
+  - Fixed versioning in the About... box.
 - v1.3 -- 8/18/2023
-  - Added support for color screens
+  - Added support for color
 - v1.2 -- 7/6/2023
   - Added command + click to reveal app in Finder
 - v1.1 -- 5/8/2023
