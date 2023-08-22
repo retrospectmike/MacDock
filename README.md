@@ -24,11 +24,11 @@ Options:
 Updates:
 Follow along at https://tinkerdifferent.com/threads/macdock-dev-progress-like-todays-macos-dock-but-for-system-7.2583/
 
-This program is care-ware.  If you enjoy it, do something nice to someone today!
+This program is care-ware.  If you enjoy it, do something nice to someone today!
 
 Release Notes
 - v1.31 -- 8/21/2023
-  - New icon!  It's not Susan Kare but it's nice :-D
+  - New icon!  It's not Susan Kare but it's nice :-D  Rebuild the Desktop if you still see the old one.
   - Fixed an issue on color screens where applications that only have a black & white icon that caused those apps to show up as generic app icons
   - Fixed versioning in the About... box.
 - v1.3 -- 8/18/2023
