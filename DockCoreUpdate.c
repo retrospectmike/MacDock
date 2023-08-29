@@ -243,8 +243,9 @@ void UpdateRunningApps(Boolean ForceRedraw){
 	}
 	//	If there's been a change or the force flag, then redraw the dock
 	if(gPsnHiLast != PsnHiCheckSum ||
-		gPsnLowLast != PsnLowCheckSum ||
-		ForceRedraw)
+		gPsnLowLast != PsnLowCheckSum ||	//if check indicates changes in apps
+		ForceRedraw ||
+		0 == gFSSpec_cnt) //if zero apps reported (assume an error occured in GetNextProcess()
 	{
 		gPsnHiLast = PsnHiCheckSum;
 		gPsnLowLast = PsnLowCheckSum;
