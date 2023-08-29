@@ -15,7 +15,7 @@ You will see your running applications on the list (limited to 7 applications).
 
 * Clicking on any of them switches you to the app.
 * Cmd + clicking reveals that application in the Finder
-* Ctrl + clicking hides the current application and switches to the clicked application (only when clicking from a non-MacDock application)
+* Option + clicking hides the current application and switches to the clicked application (only when clicking from a non-MacDock application)
 
 Options:
 * Auto Hide (CMD+H) - Tucks away the Dock partially when the app is not in focus, for easier viewing of MacDock behind cluttered desktops
