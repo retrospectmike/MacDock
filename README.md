@@ -2,6 +2,7 @@ MacDock 1.32 ©August 2023 by Mike
 
 Dedicated to those of us still using these machines 40 years later...
 <img src="screenshot_for_readme.png" alt="MacDock screenshot" width="640"/>
+![image](https://github.com/retrospectmike/MacDock/assets/69996986/14a05274-f280-480f-8a24-fd5f21ef37d9)
 
 System Requirements:
 * System 7.x - MacOS 8.x
