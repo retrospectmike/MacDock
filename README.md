@@ -1,10 +1,19 @@
-MacDock 1.40 ©May 2024 by Mike
+MacDock 2.00a4 ©August 2024 by Mike
 Dedicated to those of us still using these machines 40 years later...
-<img width="1023" alt="image" src="https://github.com/retrospectmike/MacDock/assets/69996986/9fdddf25-5170-48fa-8211-4d7ac7cbd951">
 
 What's new this release:
-* Now recognizes Control Panels that run as applications
-* Fixed an issue that caused File Sharing (and possibly other special extensions) to show up as blank slots in the dock
+- v2.00a4 -- 8/11/2024
+  - Dot (•) to indicate apps that are presently running (just like modern macOS Dock)
+     - Very useful to distinguish Favorite apps (see below) that aren't running
+  - Favorites!
+     - Ctrl+Click on a docked item and it will be saved on the dock.  Even if you quit the app, its icon will remain
+     - (TODO: ability to REMOVE item as a favorite)
+     - Favorites persist betweeen launches of MacDock!
+  - Preferences file
+     - Used to save the Favorites
+     - Stored in current running System Folder, so if you restart on a different System Folder, you won't pull up your favorites.  If I get feedback that people really want this, then I'll make the Preferences files live in the app's present directory..
+  - Unlimited dock items (limited by memory allocated)
+     - Switches to a linked-list internal structure that makes favorites possible
 
 System Requirements:
 * System 7.x - MacOS 8 (MacOS 9 incompatible)
@@ -22,14 +31,26 @@ You will see your running applications on the list, limited to 16 applications. 
 
 Options:
 * Small Dock (Cmd+S) - Toggles the small dock
-* Show Self in Dock (Cmd+D) - Shows MacDock app in the dock 
+* Show Self in Dock (Cmd+D) - Toggles showing MacDock in the dock 
 
 Updates:
 Follow along at https://tinkerdifferent.com/threads/macdock-dev-progress-like-todays-macos-dock-but-for-system-7.2583/
 
-This program is care-ware.  If you enjoy it, do something nice to someone today!
+This program is care-ware (Kare-ware?).  If you enjoy it, do something nice to someone today!
 
 Release Notes
+- v2.00a4 -- 8/11/2024
+  - Dot (•) to indicate apps that are presently running (just like modern macOS Dock)
+     - Very useful to distinguish Favorite apps (see below) that aren't running
+  - Favorites!
+     - Ctrl+Click on a docked item and it will be saved on the dock.  Even if you quit the app, its icon will remain
+     - (TODO: ability to REMOVE item as a favorite)
+     - Favorites persist betweeen launches of MacDock!
+  - Preferences file
+     - Used to save the Favorites
+     - Stored in current running System Folder, so if you restart on a different System Folder, you won't pull up your favorites.  If I get feedback that people really want this, then I'll make the Preferences files live in the app's present directory..
+  - Unlimited dock items (limited by memory allocated)
+     - Switches to a linked-list internal structure that makes favorites possible
 - v.1.40 -- 5/16/2024
   - Updated the formal limit to number of docked items to 16 from 8.
   - Now recognizes Control Panels that run as special application processes
